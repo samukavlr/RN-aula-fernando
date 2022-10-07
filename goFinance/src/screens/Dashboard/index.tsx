@@ -1,12 +1,13 @@
-import { Text, View } from 'react-native'
-import React, { Component } from 'react'
+import { Text } from 'react-native'
+import React from 'react'
+import { Container,Title } from './styles'
 
-export function Dashboard {
+export function Dashboard() {
   
     return (
-      <View>
-        <Text>Dashboard</Text>
-      </View>
+      <Container>
+        <Title>Dashboard...</Title>
+      </Container>
     )
   
 }
