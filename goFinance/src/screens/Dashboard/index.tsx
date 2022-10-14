@@ -29,17 +29,33 @@ export function Dashboard() {
 
             <User>
               <UserGreething>Olá,</UserGreething>
-              <UserName>Mega lindo!!!</UserName>
+              <UserName>Samuca !!!</UserName>
 
             </User>
             </UserInfo>
               <Icon name = "power"/>
           </UserWrapper>
         </Header>
-        <Hightlightcards>
-          <Hightlightcard />
-          <Hightlightcard />
-          <Hightlightcard />
+        <Hightlightcards
+          
+          >
+          <Hightlightcard 
+          type = 'up'
+          title='Entradas'
+          amount='17.400,00'
+          lastTansition='Última entrada dia 13 de abril'/>
+
+          <Hightlightcard 
+          type = 'down'
+          title='Saidas'
+          amount='1.259,00'
+          lastTansition='Última entrada dia 03 de abril'/>
+
+          <Hightlightcard 
+          type = 'total'
+          title='Total'
+          amount='16.141,00'
+          lastTansition='01 à 16 de abril'/>
         </Hightlightcards>
       </Container>
     )
